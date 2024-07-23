@@ -1,0 +1,13 @@
+possibleStarts = []
+possibleEnds = []
+
+for node in nodes:
+    if node does not have any edges going into it:
+        possibleStarts.append(node)
+    
+    if node does not have any edges leaving it:
+        possibleEnds.append(node)
+
+if(possibleStarts.length != 1 or possibleEnds.length != 1):
+    return false
+
