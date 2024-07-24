@@ -7,6 +7,8 @@ body{
   animation: gradientAnimation 7s infinite;
   background-size: 600% 600%;
   overflow: hidden;
+  height: 100vh;
+  width: 100vw;
 }
 #fakeBody{
   overflow:hidden;
