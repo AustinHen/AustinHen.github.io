@@ -212,6 +212,12 @@ p{
       display: none;
   }
 
+  p{
+    font-size: 400%;
+
+
+  }
+
   #container {
     height: 85%;
     padding-left: 20px;
