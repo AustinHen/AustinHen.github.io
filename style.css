@@ -11,6 +11,7 @@ body{
   height: 100vh;
   width: 100vw;
 }
+
 #fakeBody{
   overflow:hidden;
   height: 100vh;
@@ -27,6 +28,14 @@ body{
 100% {
     background-position: 0% 50%;
 }
+}
+
+.project-titles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+    align-items: center;
 }
 
 #face{
@@ -146,10 +155,7 @@ h2{
 
 h3{
   font-size: 300%;
-  padding: none;
-  margin-block-start: 0px;
-  line-height: 80%;
-  margin-bottom: 20px;
+  margin: 0;
 }
 
 p{
@@ -165,14 +171,11 @@ hr{
 }
 
 .button {
-  background-color: #04AA6D; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
+  border: 1px solid black;
+  color: black;
+  padding: 12px 20px;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 #linkCont{
@@ -180,7 +183,8 @@ hr{
   right: 0%;
   top: 0%;
   padding: 15px;
-  font-size: xx-large;
+  padding-right: 30px;
+  font-size: 300%;
 }
 
 #linkCont a{
@@ -269,3 +273,4 @@ hr{
     display: none;
   }
 }
+
